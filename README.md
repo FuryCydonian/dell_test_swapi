@@ -5,9 +5,9 @@
 Write a suite for the Star Wars world. Service endpoints (only GET requests):
 
 
-- Use the service described on site https://swapi.co/ as target service under the test.
-- full documentation: https://swapi.co/documentation  (please read it at least till Encoding block)
-- base url for all requests = https://swapi.co/api/
+- Use the service described on site https://swapi.dev/ as target service under the test.
+- full documentation: https://swapi.dev/documentation  (please read it at least till Encoding block)
+- base url for all requests = https://swapi.dev/api/
 
 Use Python and libraries: _pytest_, _requests_ 
 
