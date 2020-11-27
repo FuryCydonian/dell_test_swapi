@@ -12,5 +12,4 @@ def sw_people():
         res_people = response['results']
         people.extend(res_people)
         payload['page'] += 1
-
     return people
