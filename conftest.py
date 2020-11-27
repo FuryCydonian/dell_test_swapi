@@ -13,3 +13,7 @@ def sw_people():
         people.extend(res_people)
         payload['page'] += 1
     return people
+
+@pytest.fixture
+def sw_people_schema():
+    return requests.get('https://swapi.dev/api/people/schema').json()
