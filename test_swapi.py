@@ -9,3 +9,6 @@ def sw_people():
     return people
 
 
+def test_length_array_people(sw_people):
+    response_people = requests.get('https://swapi.dev/api/people/').json()
+    assert len(sw_people) == response_people['count']
