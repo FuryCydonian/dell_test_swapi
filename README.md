@@ -1,7 +1,13 @@
-# DELL_test_swapi
+# Test the Star Wars API
 
-## Test the Star Wars API
+## CLone and installe
+- Clone repository
+- Install poetry: `pip install poetry`
+- Install dependencies: `poetry install`
+- Run test file: `make` or `make test`
 
+
+## Test tasks
 Write a suite for the Star Wars world. Service endpoints (only GET requests):
 
 
