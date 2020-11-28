@@ -37,3 +37,11 @@ def test_null_page_doesnt_exist():
 def test_count_of_families(family, expected_result):
     payload = {'search': family}
     assert requests.get('https://swapi.dev/api/people/', params=payload).json()['count'] == expected_result
+
+
+def test_validate_people_fields(sw_people, sw_people_schema):
+    for creature in sw_people:
+        creature_fields = list(creature.keys())
+        required_fields = sw_people_schema['required']
+        for field in creature_fields:
+            assert field in required_fields

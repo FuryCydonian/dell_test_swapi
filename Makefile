@@ -1,2 +1,2 @@
 test:
-	pytest test_swapi.py -v
+	pytest test_swapi.py -vv
