@@ -1,6 +1,6 @@
 # Test the Star Wars API
 
-## Cone and install
+## Clone and install
 - Clone repository
 - Install poetry: `pip install poetry`
 - Install dependencies: `poetry install`
