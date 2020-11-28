@@ -1,9 +1,11 @@
 # Test the Star Wars API
 
-## Cone and install
+## Clone and run
 - Clone repository
+- Change directory `cd <repository_name>`
 - Install poetry: `pip install poetry`
 - Install dependencies: `poetry install`
+- activate virtual environment `source ./<env_name>/bin/activate` for Linux or `./<env_name>/Scripts/activate` for Windows
 - Run test file: `make` or `make test`
 
 
