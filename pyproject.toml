@@ -5,9 +5,10 @@ description = ""
 authors = ["fury_cydonian"]
 
 [tool.poetry.dependencies]
-python = "^3.5"
+python = "^3.6"
 requests = "^2.25.0"
 pytest = "^6.1.2"
+pytest-html = "^3.0.0"
 
 [tool.poetry.dev-dependencies]
 
