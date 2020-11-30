@@ -1,3 +1,6 @@
+#
+# Fixtures for tests
+#
 import pytest
 import requests
 
