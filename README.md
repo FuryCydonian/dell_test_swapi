@@ -3,11 +3,12 @@
 ## Clone and run
 - Clone repository
 - Change directory `cd <repository_name>`
-- Install poetry: `pip install poetry`
+- Install poetry (a tool for dependency management and packaging in Python.): `pip install poetry`
 - Install dependencies: `poetry install`
-- Install **make**. `<package_manager> install make`. 
+- Install **make**. `<package_manager> install make` or any other way for your system (without **make** look for below)
 - activate virtual environment `source ./<env_name>/bin/activate` for Linux or `<env_name>\Scripts\activate.bat` for Windows
-- Run test file: `make` or `make test`
+- Run test file: `make` or `make test`. Or without **make**: `pytest test_swapi.py -vv --html=report.html`
+- Result is in console and in report.html file
 
 
 ## Test tasks
